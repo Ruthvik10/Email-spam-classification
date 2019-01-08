@@ -1,5 +1,5 @@
 #Spam mail detection using Random Forest Classifier.
-
+#Testing
 def make_Dictionary(train_dir):
     emails = [os.path.join(train_dir,f) for f in sorted(os.listdir(train_dir))]    
     all_words = []       
